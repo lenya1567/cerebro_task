@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+}
+
+#main {
+    position: relative;
+    min-height: 100vh;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+#end {
+    position: absolute;
+    bottom: 100px;
+}
+
+.post-body {
+    overflow: hidden;
+    border-radius: 16px;
+    border: 1px solid #DDD;
+}
+
+.post-title {
+    background-color: whitesmoke;
+    padding: 8px;
+    border-bottom: 1px solid #DDD;
+}
+
+.post-content {
+    padding: 8px;
+}
+
+.post-author {
+    padding: 8px;
+    font-weight: bold;
+    border-top: 1px solid #DDD;
+}
